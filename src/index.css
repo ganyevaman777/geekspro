@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input{
+  padding-left: 12px;
+  width: 400px;
+  height: 40px;
+  margin-top: 200px;
+  border-radius: 7px 0 0 7px;
+  font-size: 25px;
+}
+
+button{
+  background-color: chartreuse;
+  width: 60px;
+  height: 46px;
+  font-size: 25px;
+  border-radius: 0 7px 7px 0px;
+  border-left: none;
+}
+
+.todoList{
+  width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block_text{
+  width: 450px;
+  border: 2px solid blue;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3{
+  font-size: 20px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input{
+  padding-left: 12px;
+  width: 400px;
+  height: 40px;
+  margin-top: 200px;
+  border-radius: 7px 0 0 7px;
+  font-size: 25px;
+}
+
+.addbutton{
+  background-color: chartreuse;
+  width: 60px;
+  height: 46px;
+  font-size: 25px;
+  border-radius: 0 7px 7px 0px;
+  border-left: none;
+}
+
+.todoList{
+  width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block_text{
+  width: 450px;
+  border: 2px solid blue;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3{
+  font-size: 20px;
+}
